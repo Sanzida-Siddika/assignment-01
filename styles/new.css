@@ -2,6 +2,7 @@
 *{
     padding: 0;
     margin: 0;
+
 }
 /* header section */
 .container{
@@ -37,7 +38,8 @@
     text-align: center; 
     
 }
-/* main section */
+/* start of main section */
+/* 1st section */
 .categories{
     background-color:white;
     margin: 30px 400px ; 
@@ -203,3 +205,92 @@ border-radius: 16px;
     gap: 10px;
     margin-top: 50px;
 }
+/* start of 4th section */
+.number{
+    width: 88%;
+    height: 380px;
+    margin: 10px 110px;
+    background-color:#FFF;
+    background-position: center;
+    border-radius: 16px; 
+    margin: 50px 110px ; 
+    display: flex;
+    text-align: center;
+}
+.offer{
+    text-align: left;
+    padding-top: 80px;
+    line-height: normal;
+    margin-right: 130px;
+
+
+}
+.offer h5{
+color: #F00;
+font-family: Inter;
+font-size: 24px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+margin-bottom: 10px;
+}
+.offer h3{
+color: #070211;
+font-family: Merriweather;
+font-size: 48px;
+font-style: normal;
+font-weight: 900;
+line-height: normal;
+text-transform: capitalize;
+margin-bottom: 30px;
+}
+.offer p{
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 25px;
+    max-width: 390px;
+    
+     
+}
+.circle-border{
+
+border-radius: 50%;
+background: no-repeat;
+border: 10px solid #F00;
+padding-top: 10px; 
+margin: 50px 50px;
+}
+.happy{
+    text-align: right;
+    padding-top: 60px;
+    line-height: normal;
+    margin-left: 130px;
+}
+.happy h4{
+color: #F00;
+font-family: Inter;
+font-size: 48px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+margin-bottom: 30px;
+}
+.happy p{
+color: rgba(7, 2, 17, 0.60);
+font-family: Inter;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+max-width: 276px;
+max-height: 96px;
+}
+.happy img{
+    margin-bottom: 0;
+    margin-right: 30px;
+    margin-top: 30px;
+}
+
