@@ -1,6 +1,5 @@
 /* commonly used styles */
 *{
-    font-family: 'Merriweather', serif;
     padding: 0;
     margin: 0;
 }
@@ -18,6 +17,7 @@
 }
 .container h4{
     color:#FFF;
+    font-family: 'Merriweather';
     font-weight: 400px;
     font-size: 32px;
     font-style: normal;
@@ -29,10 +29,51 @@
 }      
 .container h1{
     color: #FFF;
+    font-family: 'Merriweather';
     font-size: 72px;
     font-style: normal;
     line-height: 95px;
     font-weight: 900;
     text-align: center; 
     
+}
+/* main section */
+.categories{
+    background-color:white;
+    margin: 30px 400px ; 
+    text-align: center;
+}
+.off{
+color: #F00;
+text-align: center;
+font-family: Inter;
+font-size: 88px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+margin-bottom: 5px;
+}
+.deals{
+color: #F00;
+text-align: center;
+font-family: Inter;
+font-size: 24px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}
+.all{
+    color: #070211;
+
+text-align: center;
+font-family: Inter;
+font-size: 48px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+.img{
+width: 802.9px;
+height: 500px;
+flex-shrink: 0;
 }
