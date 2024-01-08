@@ -1,0 +1,38 @@
+/* commonly used styles */
+*{
+    font-family: 'Merriweather', serif;
+    padding: 0;
+    margin: 0;
+}
+/* header section */
+.container{
+    background-image: url(../resources/Banner\ Image.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 1300px;
+    height: 600px;
+    flex-shrink: 0;
+    margin: 50px 140px;
+    border-radius:16px ;
+
+}
+.container h4{
+    color:#FFF;
+    font-weight: 400px;
+    font-size: 32px;
+    font-style: normal;
+    text-align: center;
+    line-height: normal;
+    padding-top: 170px;
+    padding-bottom: 20px;
+    
+}      
+.container h1{
+    color: #FFF;
+    font-size: 72px;
+    font-style: normal;
+    line-height: 95px;
+    font-weight: 900;
+    text-align: center; 
+    
+}
